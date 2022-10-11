@@ -2,7 +2,7 @@ function grow(){
 	function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min) ) + min;
 }
-	var num = getRndInteger(-100,100);
+	var num = getRndInteger(0, 10);
 		document.getElementById('title').innerHTML = num + '/100';
 		var num2 = document.getElementById('scuare');
 		num2.style.width = num + '%';
